@@ -1,0 +1,33 @@
+.navbar{
+    border-radius: 5px;
+    background-color: #000000;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+ul{
+   padding: 0px;
+    text-align: center;
+}
+
+li {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+     
+    
+
+    
+    
+}
+
+li a {
+    text-decoration: none;
+    font-weight: bold;
+    color:#FFFFFF;
+}
+
+li a:hover {
+    background-color: rgba(221, 221, 221, 0.25);
+}

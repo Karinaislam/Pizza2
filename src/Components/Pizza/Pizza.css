@@ -1,0 +1,109 @@
+.mainPizza{
+    position: relative;
+    height: 200px;
+    width:200px;
+    background-image: url('../image/icon_cheese_Mozzarella.wdp.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: Auto;
+    margin-right: Auto;
+    z-index:1 ;
+
+
+}
+
+.toppings{
+    position: absolute;
+    top:0px;
+    right:0px;
+    height: 200px;
+    width:200px;
+    margin-left: Auto;
+    margin-right: Auto;
+
+}
+
+.topping_Beef{
+    z-index:1 ; 
+}
+
+.topping_Chicken{
+    z-index:2;
+}
+
+topping_Ham{
+    z-index:3;
+}
+
+.topping_ItalianSausage{
+    z-index:4;
+}
+
+.toppings_Meatball{
+    z-index:5 ;
+}
+
+.topping_Pepperoni{
+    z-index:6 ;
+}
+
+
+
+/* .toppings_onion{
+    height: 200px;
+    width:200px;
+    margin-left: Auto;
+    margin-right: Auto;
+    z-index:2 ;
+} */
+
+
+
+
+
+/* .toppings_chicken{
+    position: absolute;
+    height: 200px;
+    width:200px;
+    background-image: url('../image/topping_Chicken_ML_reg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: Auto;
+    margin-right: Auto;
+    z-index:2 ;
+}
+
+.toppings_meatball{
+    height: 200px;
+    width:200px;
+    background-image: url('../image/topping_Meatball_ML_reg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: Auto;
+    margin-right: Auto;
+    z-index:3 ;
+}
+
+
+.toppings_onion{
+    height: 200px;
+    width:200px;
+    background-image: url('../image/topping_Onion_red_ML_reg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: Auto;
+    margin-right: Auto;
+    z-index:4 ;
+} */
+/* .mainPizza{
+    float: right;
+    height: 200px;
+    width:200px;
+    top: 0px;
+    position: sticky;
+    
+    background-image: url('../image/icon_cheese_Mozzarella.wdp.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} */

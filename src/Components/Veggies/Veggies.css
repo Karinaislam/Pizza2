@@ -1,0 +1,12 @@
+.veggies_header{
+    background-color:#f1f1f1;
+    font-weight: bold;
+    font-size: 15px; 
+    width: 100%;
+    padding: 10px 70px;
+}
+p{
+    display: inline-block;
+    padding: 10px;
+}
+
