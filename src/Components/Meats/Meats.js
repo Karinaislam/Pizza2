@@ -13,18 +13,18 @@ class Meats extends Component {
             <div>
                  <p className="meats_header">Meats</p>
                  <form>
-                 <label><input type="checkbox" value="option1" name="Meats" onChange={(e)=>{this.props.onMeatChange('Beef' , e)}} />Beef</label>
-                 <label><input type="checkbox" value="option2" name="Meats" onChange={(e)=>{this.props.onMeatChange('Chicken', e)}} />Chicken</label>  
-                 <label><input type="checkbox" value="option3" name="Meats" onChange={(e)=>{this.props.onMeatChange('Ham', e)}}/>Ham</label>
-                 <label><input type="checkbox" value="option4" name="Meats" onChange={(e)=>{this.props.onMeatChange('ItalianSausage', e)}} />Italian Sausage</label>
-                 <label><input type="checkbox" value="option5" name="Meats" onChange={(e)=>{this.props.onMeatChange('Meatball', e)}} />Meatball</label>
-                <label><input type="checkbox" value="option6" name="Meats" onChange={(e)=>{this.props.onMeatChange('Pepperoni', e)}} />Pepperoni</label>
+                 <label><input type="checkbox" value="option1" name="Meats" onChange={(e)=>{this.props.onMeatChange('meats','Beef' , e)}} />Beef</label>
+                 <label><input type="checkbox" value="option2" name="Meats" onChange={(e)=>{this.props.onMeatChange('meats','Chicken', e)}} />Chicken</label>  
+                 <label><input type="checkbox" value="option3" name="Meats" onChange={(e)=>{this.props.onMeatChange('meats','Ham', e)}}/>Ham</label>
+                 <label><input type="checkbox" value="option4" name="Meats" onChange={(e)=>{this.props.onMeatChange('meats','ItalianSausage', e)}} />Italian Sausage</label>
+                 <label><input type="checkbox" value="option5" name="Meats" onChange={(e)=>{this.props.onMeatChange('meats','Meatball', e)}} />Meatball</label>
+                <label><input type="checkbox" value="option6" name="Meats" onChange={(e)=>{this.props.onMeatChange('meats','Pepperoni', e)}} />Pepperoni</label>
                     
                    
                    
                     
                 </form>
-            <p>Selected Meat: {this.props.meats}</p>
+            <p>Selected Meat: {this.props.meats.join(", ")}</p>
             </div>
         );
     }

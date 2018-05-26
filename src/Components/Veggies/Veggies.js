@@ -6,11 +6,12 @@ class Veggies extends Component {
             <div>
                  <p className="veggies_header">Veggies</p>
                 <form>
-                    <label><input type="checkbox" value="option1" name="Veggies"  onChange={(e)=>{this.props.onMeatChange('Mushrooms' , e)}} />Mushrooms</label>
-                    <label><input type="checkbox" value="option2" name="Veggies"  onChange={(e)=>{this.props.onMeatChange('Onions' , e)}} />Onions</label>
-                    <label><input type="checkbox" value="option3" name="Veggies" onChange={(e)=>{this.props.onMeatChange('BellPepper' , e)}} />Bell peppers</label>
-                    <label><input type="checkbox" value="option4" name="Veggies"  onChange={(e)=>{this.props.onMeatChange('Olives' , e)}} />Olives</label>
+                    <label><input type="checkbox" value="option1" name="veggies"  onChange={(e)=>{this.props.onMeatChange('veggies','Mushrooms' , e)}} />Mushrooms</label>
+                    <label><input type="checkbox" value="option2" name="veggies"  onChange={(e)=>{this.props.onMeatChange('veggies','Onions' , e)}} />Onions</label>
+                    <label><input type="checkbox" value="option3" name="veggies" onChange={(e)=>{this.props.onMeatChange('veggies','BellPepper' , e)}} />Bell peppers</label>
+                    <label><input type="checkbox" value="option4" name="veggies"  onChange={(e)=>{this.props.onMeatChange('veggies','Olives' , e)}} />Olives</label>
                 </form>
+                <p>Selected Meat: {this.props.veggies.join(", ")}</p>
             </div>
         );
     }
