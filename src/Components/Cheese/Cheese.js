@@ -9,7 +9,7 @@ class Cheese extends Component {
     render() {
         return (
             <div>
-                 <p className="cheese_header">Cheese</p>
+                 <p id="cheeses"  className="cheese_header">Cheese</p>
                 <form>
                     <label><input type="radio" value="option1" name="cheese" onChange={(value)=>{this.props.onCheeseChange('cheese','Yse')}} />Yse</label>
                     <label><input type="radio" value="option2" name="cheese" onChange={(value)=>{this.props.onCheeseChange('cheese','No')}}/>No</label>
@@ -17,10 +17,10 @@ class Cheese extends Component {
                 </form>
 
                 <form>
-                    <label><input type="radio" value="option1" name="quantity" onChange={(value)=> {this.props.onCheeseChange('Extra')}} /> Extra</label>
-                    <label><input type="radio" value="option2" name="quantity" onChange={(value)=> {this.props.onCheeseChange('Regular')}}/>Regular</label>
-                    <label><input type="radio" value="option3" name="quantity" onChange={(value)=> {this.props.onCheeseChange('Light')}} />Light</label>
-                    <label><input type="radio" value="option4" name="quantity" onChange={(value)=> {this.props.onCheeseChange('None')}} />None</label>
+                    <label><input type="radio" value="option1" name="quantity" onChange={(value)=> {this.props.onCheeseChange('quantity','Extra')}} /> Extra</label>
+                    <label><input type="radio" value="option2" name="quantity" onChange={(value)=> {this.props.onCheeseChange('quantity','Regular')}}/>Regular</label>
+                    <label><input type="radio" value="option3" name="quantity" onChange={(value)=> {this.props.onCheeseChange('quantity','Light')}} />Light</label>
+                    <label><input type="radio" value="option4" name="quantity" onChange={(value)=> {this.props.onCheeseChange('quantity','None')}} />None</label>
                 </form>
 
                 <p>Cheese: {this.props.showCheese}   </p>

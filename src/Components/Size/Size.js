@@ -6,7 +6,7 @@ class Size extends Component {
 
     render() {
         return (
-            <div>
+            <div id="size">
                 <div>
                     <div onClick={(value) => this.props.onSizeChange('size',10)} className="pizza10">10"</div>
                     <div onClick={(value) => this.props.onSizeChange('size',12)} className="pizza12">12"</div>

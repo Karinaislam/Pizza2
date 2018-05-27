@@ -10,7 +10,7 @@ class Sauce extends Component {
         console.log (this.props.showSauce)
         return (
             <div>
-                 <p className="sauce_header">Sauce</p>
+                 <p id="sauce" className="sauce_header">Sauce</p>
                  <form>
                     <label><input type="radio" value="Classic Marinara" name="sauce" onChange = {(value)=> {this.props.onSauceChange('sauce','Classic Marinara')} }/>Classic Marinara</label>
                     <label><input type="radio" value="Creamy Garlic" name="sauce" onChange = {(value)=> {this.props.onSauceChange('sauce','Creamy Garlic')} }/>Creamy Garlic</label>
@@ -26,7 +26,6 @@ class Sauce extends Component {
                 </form>
 
                 <p>Selected Sauce:{this.props.showSauce}</p>
-                 <p>Selected Amaount:{this.props.showAmount}</p>
             </div>
         );
     }

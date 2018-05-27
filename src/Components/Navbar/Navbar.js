@@ -6,11 +6,12 @@ class Navbar extends Component {
             <div>
                 <div className='navbar'>
                 <ul >
-                    <li><a href="#">Size</a></li>
-                    <li><a href="#">Crust</a></li>
-                    <li><a href="#">Cheeses</a></li>
-                    <li><a href="#">Meats</a></li>
-                    <li><a href="#">Veggies</a></li>
+                    <li><a href="/#size">Size</a></li>
+                    <li><a href="/#crust">Crust</a></li>
+                    <li><a href="/#sauce">Sauce</a></li>
+                    <li><a href="/#cheeses">Cheeses</a></li>
+                    <li><a href="/#meats">Meats</a></li>
+                    <li><a href="/#veggies">Veggies</a></li>
                 </ul>
                </div> 
             </div>

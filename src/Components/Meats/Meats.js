@@ -11,7 +11,7 @@ class Meats extends Component {
 
         return (
             <div>
-                 <p className="meats_header">Meats</p>
+                 <p id="meats" className="meats_header">Meats</p>
                  <form>
                  <label><input type="checkbox" value="option1" name="Meats" onChange={(e)=>{this.props.onMeatChange('meats','Beef' , e)}} />Beef</label>
                  <label><input type="checkbox" value="option2" name="Meats" onChange={(e)=>{this.props.onMeatChange('meats','Chicken', e)}} />Chicken</label>  
