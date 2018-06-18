@@ -80,12 +80,16 @@ class Home extends Component {
 
 
   render() {
+   
     return (
       <div>
         <Header />
         <Navbar />
         <Pizza  meats={this.state.meats} />
-        <Size  showSize={this.state.size} onSizeChange={this.handelChanged}/>
+        <Size  
+        showSize={this.state.size} 
+        onSizeChange={this.handelChanged}/>
+
         <Crust  showCrust={this.state.crust} onCrustChange={this.handelChanged} />
         <Sauce  showSauce={this.state.sauce} showAmount={this.state.amount}showQuantity={this.state.quantity} onSauceChange={this.handelChanged} />
         <Cheese showCheese={this.state.cheese} showQuantity={this.state.quantity} onCheeseChange={this.handelChanged}/>
